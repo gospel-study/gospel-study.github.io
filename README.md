@@ -1,3 +1,2 @@
-# Your blog
-
-This is the repository for your blog! Click *_config.yml* above to get started and fill in the details. Then click *index.md* and edit it to start creating your home page.
+# Gospel Study
+This is website is only for personal use, and is intented as a place for me to curate my favorite gospel study resources.
