@@ -12,14 +12,11 @@ permalink: /favorite-talks/
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/2.3.0/ng-tags-input.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/2.3.0/ng-tags-input.bootstrap.min.css" />
 
   <script data-require="angular.js@1.2.x" src="https://code.angularjs.org/1.2.28/angular.js" data-semver="1.2.15"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-tags-input/2.3.0/ng-tags-input.min.js"></script>
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -35,8 +32,8 @@ permalink: /favorite-talks/
 
   <div class="search-container">
 
-        <button data-toggle="collapse" data-target="#tag_filter">Filter by Tag</button>
-        <button data-toggle="collapse" data-target="#text_filter">Filter by Text Search</button>
+        <button type="button" data-toggle="collapse" data-target="#tag_filter">Filter by Tag</button>
+        <button type="button" data-toggle="collapse" data-target="#text_filter">Filter by Text Search</button>
         
         <div id="tag_filter" class="collapse">
           <tags-input ng-model="ctrl.tags"
@@ -175,7 +172,8 @@ permalink: /favorite-talks/
           <div class="panel panel-default">
             <div class="panel-heading">Quotations</div>
             <ul class="list-group">
-              <li class="list-group-item">I often think of a poem I read long ago. It goes like this:<br>
+              <li class="list-group-item">I often think of a poem I read long ago. It goes like this:
+                <br><br>
                 <blockquote> Let me live in a house by the side of the road,<br>
                 Where the race of men go by﻿—<br>
                 The men who are good and the men who are bad,<br>
@@ -308,4 +306,5 @@ permalink: /favorite-talks/
 
 
 </html>
+
 
